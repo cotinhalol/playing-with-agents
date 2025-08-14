@@ -1,0 +1,22 @@
+Hi, my Name is André Vizinha.
+I've a Bachelor's Degree in Computer Science done in Instituto Politécnico de Lisboa. I was enrolled between 2019 and 2024.
+During my bachelor's degree I learned how to program in Kotlin (using several frameworks like SpringBoot, Android, JetPack compose, coroutines), in Java, in Javascript (React and nodeJS), in C and also dabbled in Pyhton and Matlab.
+During my Bachelor's I also learned Sql, Linux, Docker and the details behing the JVM.
+During my Bachelor's degree've done several projects, mainly I did an upgrade to a WSL called Htmlflow link:https://github.com/xmlet/HtmlFlow
+    This DSL was created for Java and the migration I did was to make the DSL more natural to be used in a Kotlin environment.
+    This DSL also used code generation based on a config file. I did an upgrade on the libraries and logic used for the code generation for this WSL.
+
+My work Experience:
+From August 2023 to August 2025 I've worked at Crossjoin Solutions, a portugue consulting company mainly focused on performance.
+While working at CrossJoin Solutions, my client was a Major Canadian telecommunications operator. I spent around 5 months in the client's office (in Canada) during this time.
+From October 2023 until June 2025 I worked as Application support, supported several applications, databases and servers.
+The applications were mainly deployed as micro services in kubernetes in Azure cloud. 
+The programming languages used were Java (Spring Boot), as the back end and Javascript (Angular), as the front ent.
+The databases supported were Cassandra, MySql, Oracle, Redis.
+The servers were using linux.
+My job here was to troubleshoot performance and application problems, at infraestructure or at code level.
+The tools used were dynatrace, azure application insights.
+
+From June 2025 until August 2025 I worked at Automation, mainly writing scripts in bash and python and using Jira automation and azure devops release and pipelines to automate releases.
+
+I love development more specially Kotlin (Android), and i'm learning how to use AI to create agents to automate tasks.
