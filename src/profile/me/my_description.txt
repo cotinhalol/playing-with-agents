@@ -19,4 +19,6 @@ The tools used were dynatrace, azure application insights.
 
 From June 2025 until August 2025 I worked at Automation, mainly writing scripts in bash and python and using Jira automation and azure devops release and pipelines to automate releases.
 
+I'm currently working at CrossJoin Solutions as a Automation engineer for a Major Canadian telecomunications operator.
+
 I love development more specially Kotlin (Android), and i'm learning how to use AI to create agents to automate tasks.

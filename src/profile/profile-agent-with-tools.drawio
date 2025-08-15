@@ -1,0 +1,180 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:141.0) Gecko/20100101 Firefox/141.0" version="28.1.0">
+  <diagram name="Page-1" id="rJZ-CDwg-LyD6dR4TtYl">
+    <mxGraphModel dx="1375" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9GRiGlzJmaG258ZG3SNQ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="9GRiGlzJmaG258ZG3SNQ-2" target="9GRiGlzJmaG258ZG3SNQ-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9GRiGlzJmaG258ZG3SNQ-2" value="FE request" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="300" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9GRiGlzJmaG258ZG3SNQ-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="9GRiGlzJmaG258ZG3SNQ-3" target="9GRiGlzJmaG258ZG3SNQ-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9GRiGlzJmaG258ZG3SNQ-3" value="&lt;div&gt;Ask the LLM&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" parent="1" vertex="1">
+          <mxGeometry x="240" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9GRiGlzJmaG258ZG3SNQ-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" parent="1" source="9GRiGlzJmaG258ZG3SNQ-4" target="9GRiGlzJmaG258ZG3SNQ-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9GRiGlzJmaG258ZG3SNQ-4" value="&lt;div align=&quot;left&quot;&gt;this request has:&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- the initial prompt (in this case as me)&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- the chat&#39;s history&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;b&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- the users message&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="60" y="175" width="250" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="9GRiGlzJmaG258ZG3SNQ-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="9GRiGlzJmaG258ZG3SNQ-6" target="9GRiGlzJmaG258ZG3SNQ-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9GRiGlzJmaG258ZG3SNQ-6" value="Ask the LLM that is a LLM Evaluator" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" parent="1" vertex="1">
+          <mxGeometry x="510" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9GRiGlzJmaG258ZG3SNQ-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" parent="1" source="9GRiGlzJmaG258ZG3SNQ-7" target="9GRiGlzJmaG258ZG3SNQ-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9GRiGlzJmaG258ZG3SNQ-7" value="&lt;div align=&quot;left&quot;&gt;this request has:&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- the initial prompt (in this case as a response evaluator)&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- the chat&#39;s history&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;b&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- the users message&lt;/b&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;It has to provide a validation response with the following fields:&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- is_acceptable&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- feedback&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="395" y="110" width="350" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="9GRiGlzJmaG258ZG3SNQ-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="9GRiGlzJmaG258ZG3SNQ-10" target="moLPOcPrpaAMq23jcONS-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="775" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9GRiGlzJmaG258ZG3SNQ-13" value="true" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="9GRiGlzJmaG258ZG3SNQ-12" vertex="1" connectable="0">
+          <mxGeometry x="-0.2053" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9GRiGlzJmaG258ZG3SNQ-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="9GRiGlzJmaG258ZG3SNQ-10" target="9GRiGlzJmaG258ZG3SNQ-17" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="910" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9GRiGlzJmaG258ZG3SNQ-15" value="false" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="9GRiGlzJmaG258ZG3SNQ-14" vertex="1" connectable="0">
+          <mxGeometry x="-0.2239" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9GRiGlzJmaG258ZG3SNQ-10" value="is_acceptable" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="730" y="295" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="9GRiGlzJmaG258ZG3SNQ-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="9GRiGlzJmaG258ZG3SNQ-17" target="moLPOcPrpaAMq23jcONS-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="835" y="520" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="980" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9GRiGlzJmaG258ZG3SNQ-17" value="Ask The rerun LLM" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" parent="1" vertex="1">
+          <mxGeometry x="920" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9GRiGlzJmaG258ZG3SNQ-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" parent="1" source="9GRiGlzJmaG258ZG3SNQ-18" target="9GRiGlzJmaG258ZG3SNQ-17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9GRiGlzJmaG258ZG3SNQ-18" value="&lt;div align=&quot;left&quot;&gt;this request has:&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- the initial prompt (in this case as me)&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- the chat&#39;s history&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;b&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- the users message&lt;/b&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- The feedback on why the last message was not valid&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- the last message&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="860" y="140" width="340" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="moLPOcPrpaAMq23jcONS-1" value="response to the FE" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="480" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="moLPOcPrpaAMq23jcONS-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="moLPOcPrpaAMq23jcONS-2" target="moLPOcPrpaAMq23jcONS-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="moLPOcPrpaAMq23jcONS-4" value="false" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="moLPOcPrpaAMq23jcONS-3">
+          <mxGeometry x="-0.1652" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="moLPOcPrpaAMq23jcONS-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="moLPOcPrpaAMq23jcONS-2" target="moLPOcPrpaAMq23jcONS-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="moLPOcPrpaAMq23jcONS-7" value="true" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="moLPOcPrpaAMq23jcONS-6">
+          <mxGeometry x="-0.325" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="moLPOcPrpaAMq23jcONS-2" value="tools" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="735" y="480" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="moLPOcPrpaAMq23jcONS-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="moLPOcPrpaAMq23jcONS-5" target="moLPOcPrpaAMq23jcONS-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="moLPOcPrpaAMq23jcONS-14" value="true" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="moLPOcPrpaAMq23jcONS-13">
+          <mxGeometry x="-0.1692" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="moLPOcPrpaAMq23jcONS-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="moLPOcPrpaAMq23jcONS-5" target="moLPOcPrpaAMq23jcONS-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="775" y="790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="moLPOcPrpaAMq23jcONS-16" value="false" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="moLPOcPrpaAMq23jcONS-15">
+          <mxGeometry x="-0.0922" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="moLPOcPrpaAMq23jcONS-5" value="&lt;div&gt;provide&amp;nbsp;&lt;/div&gt;&lt;div&gt;contact&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="735" y="640" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="moLPOcPrpaAMq23jcONS-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="moLPOcPrpaAMq23jcONS-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="moLPOcPrpaAMq23jcONS-12" value="Send an email to me with the provided email address" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" vertex="1" parent="1">
+          <mxGeometry x="550" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="moLPOcPrpaAMq23jcONS-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="moLPOcPrpaAMq23jcONS-17" target="moLPOcPrpaAMq23jcONS-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="moLPOcPrpaAMq23jcONS-25" value="true" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="moLPOcPrpaAMq23jcONS-18">
+          <mxGeometry x="-0.0154" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="moLPOcPrpaAMq23jcONS-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="moLPOcPrpaAMq23jcONS-17" target="moLPOcPrpaAMq23jcONS-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="775" y="910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="moLPOcPrpaAMq23jcONS-21" value="false" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="moLPOcPrpaAMq23jcONS-20">
+          <mxGeometry x="-0.2872" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="moLPOcPrpaAMq23jcONS-17" value="&lt;div&gt;new&amp;nbsp;&lt;/div&gt;&lt;div&gt;relveant question&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="735" y="780" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="moLPOcPrpaAMq23jcONS-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="moLPOcPrpaAMq23jcONS-19" target="moLPOcPrpaAMq23jcONS-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="moLPOcPrpaAMq23jcONS-19" value="Send an email to me with new relevant question" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" vertex="1" parent="1">
+          <mxGeometry x="550" y="790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="moLPOcPrpaAMq23jcONS-22" value="ERROR" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="715" y="920" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="moLPOcPrpaAMq23jcONS-26" value="LLM calls" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" vertex="1" parent="1">
+          <mxGeometry x="40" y="440" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="moLPOcPrpaAMq23jcONS-27" value="code logic" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" vertex="1" parent="1">
+          <mxGeometry x="40" y="470" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="moLPOcPrpaAMq23jcONS-28" value="ERROR" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="40" y="500" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="moLPOcPrpaAMq23jcONS-29" value="decisions" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="540" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="moLPOcPrpaAMq23jcONS-30" value="&lt;div&gt;If the LLM and validator decide a tool should be called:&lt;/div&gt;&lt;div&gt;using reflection the correct function is called depending on the response from the LLM&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="850" y="650" width="260" height="130" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
